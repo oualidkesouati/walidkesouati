@@ -9,7 +9,25 @@ export default function Hero() {
     <section id="home" className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-background to-card/30">
       <div className="max-w-6xl mx-auto fade-in">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Left Section - Text Content */}
+          {/* Left Section - Circular Image */}
+          <div className="flex justify-center lg:justify-start">
+            <div className="relative">
+              <div className="w-80 h-80 sm:w-96 sm:h-96 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl">
+                <Image
+                  src="/walidphoto.jpeg"
+                  alt="Kesouati Oualid"
+                  width={400}
+                  height={400}
+                  className="w-full h-full object-cover"
+                  priority
+                />
+              </div>
+              {/* Decorative circle behind the image */}
+              <div className="absolute -top-4 -right-4 w-80 h-80 sm:w-96 sm:h-96 rounded-full bg-gradient-to-br from-primary/10 to-primary/5 -z-10"></div>
+            </div>
+          </div>
+
+          {/* Right Section - Text Content */}
           <div className="text-center lg:text-left">
             <h1 className="text-5xl sm:text-6xl font-bold text-foreground mb-4 text-balance">Kesouati Oualid</h1>
 
@@ -24,7 +42,7 @@ export default function Hero() {
 
             <div className="flex justify-center lg:justify-start gap-4 mb-8">
               <Link
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/kesouati-oualid-684907252/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-all hover-lift"
@@ -33,7 +51,7 @@ export default function Hero() {
                 <Linkedin className="w-6 h-6" />
               </Link>
               <Link
-                href="https://github.com"
+                href="https://github.com/oualidkesouati"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-all hover-lift"
@@ -57,24 +75,6 @@ export default function Hero() {
               >
                 Contactez-moi
               </Link>
-            </div>
-          </div>
-
-          {/* Right Section - Circular Image */}
-          <div className="flex justify-center lg:justify-end">
-            <div className="relative">
-              <div className="w-80 h-80 sm:w-96 sm:h-96 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl">
-                <Image
-                  src="/walidphoto.jpeg"
-                  alt="Kesouati Oualid"
-                  width={400}
-                  height={400}
-                  className="w-full h-full object-cover"
-                  priority
-                />
-              </div>
-              {/* Decorative circle behind the image */}
-              <div className="absolute -top-4 -right-4 w-80 h-80 sm:w-96 sm:h-96 rounded-full bg-gradient-to-br from-primary/10 to-primary/5 -z-10"></div>
             </div>
           </div>
         </div>

@@ -6,20 +6,15 @@ export default function About() {
 
         <div className="space-y-6 text-muted-foreground leading-relaxed">
           <p>
-            Passionné par les technologies modernes et l'innovation, je suis un ingénieur informatique avec une
-            expertise approfondie en développement fullstack et data science. Mon parcours m'a permis de travailler sur
-            des projets variés, de la conception d'architectures microservices à l'analyse de données complexes.
+          Ingénieur diplômé de l'EMSI, passionné par les technologies modernes et l'innovation. Je possède une solide base en développement fullstack (web et mobile). Mon parcours m'a permis de travailler sur des projets variés, de la conception d'architectures microservices à l'analyse de données.
           </p>
 
           <p>
-            Curieux, rigoureux et proactif, j'aime relever des défis techniques et contribuer à la création de solutions
-            innovantes. Je suis convaincu que la qualité du code et une bonne architecture sont essentielles pour
-            construire des applications scalables et maintenables.
+          Curieux, rigoureux et proactif, j'aime relever des défis techniques pour innover et résoudre des problématiques concrètes. Je suis convaincu que la qualité du code et une bonne architecture sont essentielles pour construire des applications scalables.
           </p>
 
           <p>
-            En dehors du travail, je suis toujours à la recherche de nouvelles technologies à explorer et de projets
-            intéressants sur lesquels collaborer.
+          Je m'intéresse vivement à l'exploration de nouvelles technologies, notamment dans les domaines du DevOps, de la cybersécurité et de l'analyse de données.
           </p>
         </div>
       </div>

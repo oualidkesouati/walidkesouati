@@ -32,12 +32,11 @@ export default function Hero() {
             <h1 className="text-5xl sm:text-6xl font-bold text-foreground mb-4 text-balance">Kesouati Oualid</h1>
 
             <p className="text-xl sm:text-2xl text-primary font-semibold mb-4">
-              Ingénieur Informatique (2025) - Fullstack & Data Science
+              Ingénieur Informatique (2025) - Fullstack Developer
             </p>
 
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              Ingénieur diplômé de l'EMSI, je conçois et développe des applications web et mobiles innovantes. Spécialisé en
-              architecture microservices, développement fullstack et analyse de données.
+            Ingénieur diplômé de l'EMSI. Je développe des applications web et mobiles en m'appuyant sur une base solide en architecture microservices. Je suis motivé par les défis liés à la cybersécurité, à l'automatisation DevOps et à l'analyse de données.
             </p>
 
             <div className="flex justify-center lg:justify-start gap-4 mb-8">

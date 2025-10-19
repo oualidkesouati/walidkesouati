@@ -17,12 +17,7 @@ export default function Footer() {
                   kesouatioualid@outlook.com
                 </a>
               </div>
-              <div className="flex items-center gap-3">
-                <Phone className="w-5 h-5" />
-                <a href="tel:+212649579103" className="hover:opacity-80 transition-opacity">
-                  +212 649 579 103
-                </a>
-              </div>
+              
               <div className="flex items-center gap-3">
                 <MapPin className="w-5 h-5" />
                 <span>Casablanca, Maroc</span>

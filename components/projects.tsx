@@ -2,6 +2,11 @@
 
 const projects = [
   {
+    title: "Application d'Appel Vidéo en Réseau Local",
+    description: "Développement d'une application de communication en temps réel (RTC) permettant des appels vidéo peer-to-peer sécurisés entre utilisateurs connectés au même réseau local.",
+    technologies: ["WebRTC", "WebSockets", "Spring Boot", "Angular"],
+  },
+  {
     title: "Application de gestion du contrôle technique",
     description: "Plateforme complète pour la gestion et le suivi des contrôles techniques automobiles.",
     technologies: ["ASP.NET", "SQL Server", "C#"],
@@ -15,6 +20,11 @@ const projects = [
     title: "FIFA Players Dataset - Analyse de données",
     description: "Analyse approfondie du dataset FIFA avec visualisations et insights sur les joueurs.",
     technologies: ["Power BI", "Kaggle", "Data Analysis"],
+  },
+  {
+    title: "Application Web de Gestion de Bibliothèque",
+    description: "Plateforme complète pour la gestion du catalogue de livres, le suivi des membres et des emprunts en temps réel.",
+    technologies: ["ASP.NET", "Tailwind CSS]", "SQL Server"],
   },
 ]
 

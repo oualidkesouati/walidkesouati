@@ -4,7 +4,7 @@ const experiences = [
   {
     company: "Cost House",
     position: "Développeur Fullstack & Data",
-    period: "2024 - Présent",
+    period: "04/2025 - 10/2025",
     description:
       "Conception de Nudgio, une plateforme innovante avec architecture microservices. Intégration WhatsApp Cloud API et création de dashboards KPIs.",
     technologies: ["Angular", "Flutter", "Spring Boot", "Wix", "Python"],
@@ -12,21 +12,21 @@ const experiences = [
   {
     company: "PFA Emsi",
     position: "Développeur Fullstack",
-    period: "2023 - 2024",
+    period: "10/2024 - 12/2024",
     description: "Développement de ChatApp, une application web de messagerie instantanée avec support temps réel.",
     technologies: ["Angular", "Spring Boot", "JWT", "WebSockets", "MySQL"],
   },
   {
     company: "6 Solutions",
     position: "Développeur Fullstack",
-    period: "2023",
+    period: "06/2023 - 08/2023",
     description: "Création de Locatrack, une application mobile de géolocalisation avec gestion des alertes.",
     technologies: ["Flutter", "Spring Boot", "MySQL", "Git", "CI/CD"],
   },
   {
     company: "PFE FSB'M",
     position: "Développeur Fullstack",
-    period: "2022 - 2023",
+    period: "02/2023 - 05/2023",
     description: "Développement d'une application web pour la gestion des aides soignants.",
     technologies: ["ReactJS", "PHP", "Laravel", "MySQL"],
   },

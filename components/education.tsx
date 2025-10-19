@@ -2,7 +2,7 @@
 
 const education = [
   {
-    degree: "Diplôme d'ingénieur",
+    degree: "Diplôme d'ingénieur en Informatique et Réseaux",
     school: "EMSI",
     period: "2023 - 2025",
     type: "education",
@@ -21,10 +21,16 @@ const education = [
 ]
 
 const certifications = [
-  "Introduction à Java",
-  "Introduction à Git et GitHub (IBM)",
-  "Introduction aux conteneurs avec Docker (IBM)",
-  "Introduction to DevOps (IBM)",
+"Oracle Cloud Infrastructure 2025 Certified DevOps Professional (Oracle)",
+"Building Scalable Java Microservices with Spring Boot and Spring Cloud (Google Cloud)",
+"Machine Learning with Python (IBM)",
+"Introduction to Big Data with Spark and Hadoop (IBM)",
+"Introduction to DevOps (IBM)",
+"Introduction à Git et GitHub (IBM)",
+"Introduction aux conteneurs avec Docker (IBM)",
+"Virtual networks in Azure (Whizlabs)",
+"Introduction à Java",
+"Introduction to javascript (Orange Digital Center)",
 ]
 
 export default function Education() {

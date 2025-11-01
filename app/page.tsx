@@ -7,6 +7,7 @@ import About from "@/components/about"
 import Skills from "@/components/skills"
 import Experience from "@/components/experience"
 import Projects from "@/components/projects"
+import SoftSkills from "@/components/softskills"
 import Education from "@/components/education"
 import Footer from "@/components/footer"
 
@@ -40,6 +41,7 @@ export default function Home() {
       <Skills />
       <Experience />
       <Projects />
+      <SoftSkills />
       <Education />
       <Footer />
     </div>

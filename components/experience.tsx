@@ -7,7 +7,7 @@ const experiences = [
     period: "04/2025 - 10/2025",
     description:
       "Conception de Nudgio, une plateforme innovante avec architecture microservices. Intégration WhatsApp Cloud API et création de dashboards KPIs.",
-    technologies: ["Angular", "Flutter", "Spring Boot", "Wix", "Python"],
+    technologies: ["Angular", "Flutter", "Spring Boot", "Wix", "Python","PostgreSQL"],
   },
   {
     company: "PFA Emsi",
